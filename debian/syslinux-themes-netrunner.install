@@ -1,1 +1,1 @@
-themes/netrunner/*	/usr/share/syslinux/themes/netrunner
+isolinux/*	/usr/share/syslinux/themes/netrunner/isolinux-live/

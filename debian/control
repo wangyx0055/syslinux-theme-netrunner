@@ -7,7 +7,7 @@ Standards-Version: 3.9.5
 
 Package: syslinux-themes-netrunner
 Architecture: all
-Depends: ${misc:Depends}, memtest86+, syslinux-common
+Depends: ${misc:Depends}, memtest86+, syslinux-common, isolinux
 Enhances: extlinux
 Provides: syslinux-theme
 Description: collection of boot loader themes (netrunner theme)
