@@ -1,12 +1,12 @@
-label live-amd64
-	menu label ^Start Netrunner Debian Live (amd64)
+label live-@FLAVOUR@
+	menu label ^Start Netrunner Debian Live (@FLAVOUR@)
 	menu default
         linux @LINUX@
         initrd @INITRD@
         append @APPEND_LIVE@
 
-label live-amd64-failsafe
-	menu label ^Start Netrunner Debian Live (amd64 failsafe)
+label live-@FLAVOUR@-failsafe
+	menu label ^Start Netrunner Debian Live (@FLAVOUR@ failsafe)
         linux @LINUX@
         initrd @INITRD@
         append @APPEND_LIVE_FAILSAFE@
